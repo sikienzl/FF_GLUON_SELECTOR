@@ -59,11 +59,11 @@ counter=1
             RELEASE_TAG="$selected_tag"
             
         else
-            echo "Ungültiger Index ausgewählt."
-			exit -1
+            echo "No valid index selected. Exiting."
+			exit 1
         fi
     else
-        echo "Dialog wurde abgebrochen."
+        echo "Dialog was cancelled. Exiting."
 		exit 0
     fi
 }
