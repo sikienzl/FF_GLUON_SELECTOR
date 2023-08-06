@@ -35,6 +35,7 @@ define_install_path() {
 	fi
 
 	INSTALL_PATH="$INSTALL_PATH/gluon"
+    echo "$INSTALL_PATH" >> .install_path.tmp
 	
 }
 
