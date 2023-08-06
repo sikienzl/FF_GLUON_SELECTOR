@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ########################################################
-# Script Name: setup_requirements.sh                  ##
+# Script Name: download_gluon.sh                      ##
 # Description: This script downloads Gluon from the   ##
 #              official repository in the selected    ##
 #              version and installs it in the chosen  ##
