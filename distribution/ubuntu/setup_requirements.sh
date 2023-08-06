@@ -1,12 +1,14 @@
 #!/bin/bash
-# Script Name: 	setup_requirements.sh
-# Description: 	This script installs
-# the necessary requirements for
-# Freifunk Gluon on an Ubuntu or Debian 
-# system.
-# Author:	Siegfried K.
-# Version: 	1.0
-# Date:		2023-08-05 - 11:06 pm
+
+#######################################################
+# Script Name: setup_requirements.sh                 ##
+# Description: This script installs the necessary    ##
+#              requirements for Freifunk Gluon on    ##
+#              an Ubuntu or Debian system.           ##
+# Author:      Siegfried K.                          ##
+# Version:     1.0                                   ##
+# Date:        2023-08-06 - 10:16 am                 ##
+#######################################################
 
 if [ "$(id -u)" != "0" ]
 then
@@ -14,7 +16,8 @@ then
 	exit 1
 else
 	apt update && \ 
-	apt install git \
+	apt install dialog \
+		git \
 		subversion \
 		python3 \
 		build-essential \
