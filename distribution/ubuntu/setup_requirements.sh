@@ -15,7 +15,7 @@ then
 	echo "This script requires root privileges" 1>&2
 	exit 1
 else
-	apt update && \ 
+	apt update && \
 	apt install git \
 		subversion \
 		python3 \
