@@ -16,8 +16,7 @@ then
 	exit 1
 else
 	apt update && \ 
-	apt install dialog \
-		git \
+	apt install git \
 		subversion \
 		python3 \
 		build-essential \
