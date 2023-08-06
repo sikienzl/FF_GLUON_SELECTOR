@@ -2,7 +2,7 @@
 This repository contains a collection of scripts designed to simplify the selection and building of Gluon for the respective Freifunk groups.
 
 ## Prerequisites
-To execute these scripts, you will need the dialog package. For Debian-based distributions, 
+To execute these scripts, you will need the `dialog` package. For Debian-based distributions, 
 you can type the following command:
 ```bash
 $ apt update && apt install dialog
