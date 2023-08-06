@@ -16,7 +16,7 @@ INSTALL_PATH=""
 GLUON_REPO="https://github.com/freifunk-gluon/gluon.git"
 
 download_gluon() {
-	git clone $GLUON_REPO $INSTALL_PATH -b $RELEASE_TAG
+	git clone "$GLUON_REPO" "$INSTALL_PATH" -b "$RELEASE_TAG"
 }
 
 define_install_path() {
