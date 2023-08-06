@@ -1,5 +1,6 @@
 # FREIFUNK Gluon Selector
 [![Trigger: Push action](https://github.com/sikienzl/FREIFUNK_Gluon_Selector/actions/workflows/main.yml/badge.svg)](https://github.com/sikienzl/FREIFUNK_Gluon_Selector/actions/workflows/main.yml)
+
 This repository contains a collection of scripts designed to simplify the selection and building of Gluon for the respective Freifunk groups.
 
 ## Prerequisites
