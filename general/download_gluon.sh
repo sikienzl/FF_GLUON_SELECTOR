@@ -50,8 +50,8 @@ counter=1
     done
 
     selected_index=$(dialog --backtitle "Gluon Release Selection" \
-    --radiolist "Select the Gluon Release you want to build" 0 0 "$counter" \
-    "$tags_list" 2>&1 >/dev/tty)
+    --radiolist "Select the Gluon Release you want to build" 0 0 $counter \
+    $tags_list 2>&1 >/dev/tty)
 
     if [ $? -eq 0 ]; then
         if [ "$selected_index" -gt 0 ] && [ "$selected_index" -le ${#tags_array[@]} ]; then

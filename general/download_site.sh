@@ -88,6 +88,13 @@ download_site() {
     cd "$CURRENT_PATH"
 }
 
+check_and_remove_link() {
+    if [ -L "$INSTALL_PATH/$DEFAULT_SITE_FOLDER" ]
+    then
+        rm -f "$INSTALL_PATH/$DEFAULT_SITE_FOLDER"
+    fi
+}
+
 create_link() {
     if [ -z "$SITE_FOLDERNAME" ]
     then
@@ -109,5 +116,6 @@ define_install_path
 select_site
 get_site_foldername
 download_site
+check_and_remove_link
 create_link
 cleanup
